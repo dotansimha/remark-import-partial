@@ -2,8 +2,16 @@
   "name": "remark-import-partial",
   "version": "0.0.1",
   "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
   "license": "MIT",
   "dependencies": {
     "unist-util-visit": "2.0.2"
+  },
+  "devDependencies": {
+    "remark": "^13.0.0",
+    "to-vfile": "^6.1.0",
+    "unified": "^9.2.1"
   }
 }
